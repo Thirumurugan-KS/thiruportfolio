@@ -8,6 +8,7 @@
     <title>Thiru's-Portfolio</title>
 </head>
 <body>
+    
     <div id="header">
         <header>
             <h3>
@@ -28,6 +29,7 @@
                   </div>
                   <div class="newcontainer">
                     <a class="unblockli" target="_blank" href="https://github.com/Thirumurugan-KS">Github Link</a>
+                    <a id="dark">Theme</a>
 
                   </div>
             
@@ -101,6 +103,15 @@
     <span><p>Coded by Thiru</p></span> 
         </footer>
     
+        <script>
+
+var darkmode = document.getElementById("dark")
+
+darkmode.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+}
+
+        </script>
 
 </body>
 </html>
